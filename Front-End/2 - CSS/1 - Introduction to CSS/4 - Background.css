@@ -1,0 +1,28 @@
+h1{
+	color:rgba(0,200,100,.8);
+	/*We must need all 3 border property*/
+	border-color: purple;
+	border-width: 5px;
+	border-style: solid;	
+}
+
+h4{
+	background: rgb(255,100,80);
+}
+
+/*This will give our new background of an image*/
+/*Sometimes when looking at the background we dont want the image to look repeated*/
+body{
+	background: pink;
+/*	background: url(http://img.wallpaperfolder.com/f/50E0840228D3/light-wood-grain-texture.jpg);
+	background-repeat: no-repeat; 
+	/*This will let it increase its size such that it will cover the background
+	background-size: cover; 
+*/
+}
+
+
+
+
+
+

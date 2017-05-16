@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Labels</title>
+</head>
+<body>
+	
+	<!-- This is one way of doing labels --> 
+<!-- 	<form action="http://www.wikipedia.org">
+		<h1>Login</h1>
+
+		<label>
+			Username:
+			<input name="username" type="text" placeholder="Username">
+		</label>
+		
+		<label>
+			Password:
+			<input name="password" type="password" placeholder="Password">
+		</label>
+		
+		<input name="username" type="submit">
+	</form>
+ -->
+
+
+ 	<!-- Alternative way instead of the first one -->
+	<form action="http://www.wikipedia.org">
+		<h1>Login</h1>
+
+		<label for= "username">Username:</label>
+		<input id = "username" type="text" placeholder="Username">
+		
+		
+		<label for= "password">Password:</label>
+		<input id = "password" name="password" type="password" placeholder="Password">
+		
+		<input name="username" type="submit">
+	</form>
+
+
+</body>
+</html>
+
+<!-- "for" and "id" names does not matter as long as they equal the same -->
+
+

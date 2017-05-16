@@ -1,0 +1,23 @@
+img{
+	width: 30%;
+	float: left;
+	
+	/*Have to do some math: 
+	Count the number of sides (We have 6)
+	We have 10% per picture and need to divide by 6
+	10/6 = 1.66*/
+	margin: 1.66%;
+}
+
+p{
+	font-family: Raleway; /*Calling upon Raleway*/
+	margin-left:1.66%; /*Changing the location of the margin*/
+	font-size: 23px; /*Change the size of the font*/
+	font-weight:800; /*Change the density of the font*/
+	text-transform: uppercase; /*This will make all uppercase*/
+	border-bottom: 3px solid black;
+	width: 30%;
+	padding-bottom: 20px;
+}
+
+

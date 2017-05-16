@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Radio Button</title>
+</head>
+<body>
+<!-- When the user has one choice use radio -->
+	<p>Do you prefer cats or dogs?</p>
+	<form>
+		<!-- In the <input> tag we see that we give them the same name such that the program will see that they are they same so the user cannot select both Cats or Dogs -->
+		<!-- Normally "PetChoice" should be on the URL however, "DOGS" will be shown instead -->
+		<label for="dogs">Dogs</label>
+		<input name="PetChoice" id = "dogs" type="radio" value="DOGS">
+
+		<label for = "cats">Cats</label>
+		<input name="PetChoice" id = "cats" type="radio" value="CATS">
+
+		<!-- We are making a dropdown box --> 
+		<p>What is your favorite color?</p>
+		<select name="color">
+			<option>Red</option>
+			<option>Orange</option>
+			<option>Yellow</option>
+		</select>
+
+		<!-- On the URL depending on the choice it will say mood = "Happy" or other things -->
+			<p>What is your current mood?</p>
+		<select name="mood">
+			<option value="Happy">:)</option>
+			<option value="Neutral">:|</option>
+			<option value="Sad">:(</option>
+		</select>
+
+
+		<!-- textarea MDN -->
+		<!-- To determine the size of the <textarea> we can use "rows" and "columns" -->
+		<!-- name="" will show on the URL -->
+		<textarea name="paragraph" rows="10" cols="50"></textarea>
+
+		<button>Go!</button>
+	</form>
+	
+
+</body>
+</html>

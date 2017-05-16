@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Data Validation</title>
+</head>
+<body>
+	<form action="http://www.wikipedia.org">
+		<h1>Login</h1>
+
+		<label for= "username">Username:</label>
+		<!-- Because of the "required", it will make the user input something in the username -->
+		<!-- Must fill in the username spot with an email only -->
+		<input id = "username" type="email" placeholder="Email" required>
+		
+		
+		<label for= "password">Password:</label>
+		<!-- It will make the user input something in the password -->
+		
+		<input id = "password" name="password" type="password" placeholder="Password", required>
+		
+		<input name="username" type="submit">
+	</form>
+
+</body>
+</html>

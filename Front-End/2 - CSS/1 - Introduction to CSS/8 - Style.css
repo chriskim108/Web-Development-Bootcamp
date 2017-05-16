@@ -1,0 +1,26 @@
+body{
+	color: red;
+}
+
+p{
+	color: green;
+}
+
+li{
+	color: orange;
+}
+
+
+/*Even though the body, p, li is set a color they will change
+Because the "class" or "id" would be more superior*/
+.Highlight{
+	color: yellow;
+}
+
+#Special{
+	color: pink;
+}
+
+
+
+

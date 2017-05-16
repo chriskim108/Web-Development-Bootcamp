@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Grid System Part 2</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+
+	<style type="text/css">
+	.pink{
+		background: pink;
+		border:1px solid purple;
+	}
+	.orange{
+		background: orange;
+		border: 1px dashed red;
+		height: 50px;
+	}
+	</style>
+
+
+</head>
+<body>
+<!-- There are 4 different sizes - (xs = extra small, sm = small, md = medium, lg = large) -->
+	<!-- <div class = "container">
+ -->		<!-- <div class = "row"> -->
+		<!-- When it turns to medium size it will take up 2 units -->
+			<!-- <div class = "col-lg-1 col-md-2 pink">Col Lg 1</div>
+			<div class = "col-lg-1 col-md-2 pink">Col Lg 1</div>
+			<div class = "col-lg-1 col-md-2 pink">Col Lg 1</div>
+			<div class = "col-lg-1 col-md-2 pink">Col Lg 1</div>
+			<div class = "col-lg-1 col-md-2 pink">Col Lg 1</div>
+			<div class = "col-lg-1 col-md-2 pink">Col Lg 1</div>
+			<div class = "col-lg-1 col-md-2 pink">Col Lg 1</div>
+			<div class = "col-lg-1 col-md-2 pink">Col Lg 1</div>
+			<div class = "col-lg-1 col-md-2 pink">Col Lg 1</div>
+			<div class = "col-lg-1 col-md-2 pink">Col Lg 1</div>
+			<div class = "col-lg-1 col-md-2 pink">Col Lg 1</div>
+			<div class = "col-lg-1 col-md-2 pink">Col Lg 1</div>
+		</div> -->
+
+	<!-- </div> -->
+
+	<div class = "container">
+		<div class = "row">
+			<div class = "col-md-3 col-sm-6 pink">
+				<!-- We will cut it into 2 piece in that one row -->
+				<div class="row">
+					<div class="col-lg-6 orange">First Way</div>
+					<div class="col-lg-6 orange">Over Half</div>
+				</div>
+			</div>
+
+			<div class = "col-md-3 col-sm-6 pink">Tour Date</div>
+			<div class = "col-md-3 col-sm-6 pink">Tour Date</div>
+
+			<div class = "scol-md-3 col-sm-6 pink">Tour Date
+			<!-- We will cut it into 6 piece in that one row -->
+				<div class="row">
+					<div class="col-lg-2 orange"></div>
+					<div class="col-lg-2 orange"></div>
+					<div class="col-lg-2 orange"></div>
+					<div class="col-lg-2 orange"></div>
+					<div class="col-lg-2 orange"></div>
+					<div class="col-lg-2 orange"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+</body>
+</html>

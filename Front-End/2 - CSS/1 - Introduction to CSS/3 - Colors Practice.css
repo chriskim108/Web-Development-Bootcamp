@@ -1,0 +1,21 @@
+
+
+/*If I were to do this it will become completely red*/
+/*h1{
+
+	color: #FF0000;
+}*/
+/*The way the coloring works is not the same as a regular color wheel*/
+/*RGB*/
+
+h1{
+	color: #AE52D9;
+}
+
+h4{
+	color: rgb(240, 0, 100);
+}
+
+li{
+	color:rgba(11,99,150,.6);
+}

@@ -1,0 +1,28 @@
+/*Element Selector*/
+/*This will default border to all li*/
+li{
+	border-size: 2px;
+	border-color: red;
+	border-style: solid;
+}	
+
+/*This is an example of an id selector*/
+/*This will select the specific value*/
+#First_Input{
+	background-color: yellow;
+}
+#Second_Input{
+	background-color: blue;
+}
+
+/*This is an example of a class selector*/
+/*This is how to deal with class*/
+.Test{
+	text-decoration: line-through;
+}
+
+
+body{
+	background: orange;
+}
+

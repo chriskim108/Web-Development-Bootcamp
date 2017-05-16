@@ -1,0 +1,60 @@
+/*font-family*/
+
+p {
+	font-family: Arial;
+}
+
+h1 {
+	font-family: Georgia;
+}
+
+/*font-size*/
+
+body {
+	font-size: 10px;
+}
+
+h1 {
+	font-size: 5.0em;
+}
+
+p {
+	font-size: 2.0em;
+}
+
+span {
+	font-size: 2.0em;
+}
+
+/*font-weight*/
+/*It can be from 100 - 800*/
+p{
+	font-weight: normal;
+}
+
+/*line-height*/
+/*This will control of the height of the given line*/
+p {
+	line-height: 1.5;
+}
+
+/*text-align*/
+/*This controls the alignment of text (Center, Left, Right)*/
+h1 {
+	text-align: right;
+}
+
+p {
+	text-align: center;
+}
+
+/*text-decoration*/
+/*This is used to give text an underlined effect*/
+p {
+	text-decoration: underline;
+}
+
+h1 {
+	text-decoration: line-through;
+}
+
