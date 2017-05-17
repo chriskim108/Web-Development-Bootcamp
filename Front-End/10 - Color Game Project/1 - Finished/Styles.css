@@ -1,0 +1,85 @@
+body{
+	background-color: #232323;
+	margin: 0;
+	font-family: "Montserrat", "Avenir";
+}
+
+.square{
+	width: 30%;
+	background: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	/*Border Radius mdn*/
+	/*This will design our squares*/
+	border-radius: 15%;
+	/*When we click the wrong one, it will transition out*/
+	transition: background .6s;
+	/*This will make the transition happen in other web browsers (Ex)*/
+	/*webkit is meant for things like safari*/
+	-webkit-transition: background .6s;
+	/*This is for mozilla, which is firefox is built on*/
+	-moz-transition: background .6s;
+}
+
+#container{
+	margin: 20px auto;
+	max-width: 600px;
+}
+
+h1{
+	text-align: center;
+	line-height: 1.1;
+	font-weight: normal;
+	color:white;
+	background: steelblue;
+	margin: 0;
+	text-transform: uppercase;
+	padding: 20px 0;
+}
+
+#colorDisplay{
+	font-size: 200%;
+}
+
+#message{
+	display: inline-block;
+	width: 20%;
+}
+
+#stripe{
+	background:white;
+	height: 30px;
+	text-align: center;
+	color: black;
+}
+
+.selected{
+	color: white;
+	background: steelblue;
+}
+
+button{
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	/*Important*/
+	/*This will tell CSS on how we will animate between colorchanges, fontsize, etc*/
+	transition: all .5s;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	outline: none;
+}
+
+button:hover{
+	color: white;
+	background: steelblue;
+
+}
+
+
